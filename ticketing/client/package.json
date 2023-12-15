@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bootstrap": "^5.3.2",
+    "next": "^14.0.3",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-stripe-checkout": "^2.6.3"
+  },
+  "name": "client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "docker:build": "docker build -t ticketing/client . && docker tag ticketing/client yehugh1981/ticketing:client",
+    "docker:push": "docker push yehugh1981/ticketing:client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
